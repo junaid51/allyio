@@ -1,0 +1,22 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal > .body {
+  max-height: 400px;
+  max-width: 400px;
+  background-color: #dddddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+.modal ul,
+.modal li {
+  list-style-type: none;
+}

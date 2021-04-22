@@ -1,0 +1,29 @@
+ul.child-list,
+ul.child-list > li {
+  list-style-type: lower-latin;
+  cursor: pointer;
+}
+.list-item > .title {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.child-list {
+  display: none;
+  margin-bottom: 20px;
+  animation: movedown 500ms;
+}
+
+.child-list.active {
+  display: block;
+}
+.child-list-item {
+  padding: 15px;
+  font-size: 15px;
+  color: #212121;
+}
+.child-list-item:nth-child(odd) {
+  background-color: #dddddd;
+}
